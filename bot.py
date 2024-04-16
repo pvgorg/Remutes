@@ -7,7 +7,7 @@ from pyrogram.enums import ParseMode
 from pyrogram.raw import functions, types
 
 bot_token = "6160100728:AAF5hEci37tGUxkrQ7FidutIN8-27gfFAeU"
-sudo =[1502490631,141374540]
+sudo = 1502490631
 login_temp_list = {}
 
 if not os.path.isdir('Rimots') : os.mkdir('Rimots')
@@ -34,10 +34,9 @@ bot = Client(
     api_hash = "b8eff20a7e8adcdaa3daa3bc789a5b41"
 )
 
-@bot.on_message(filters.command(["start"]))
-def start(client, message):
-    if message.chat.id in sudo:
-    await bot.send_message(message.from_user.id, '''<b>Welcome to MurDer Army </b>
+@bot.on_message(filters.command(["start"]) & filters.user(sudo))
+async def start(client, message):
+    await bot.send_message(message.from_user.id,'''<b>Welcome to MurDer Army </b>
 <code>Army ~ Alireza</code>
 
 <u>🟢 راهنمای افزودن اکانت به ربات 🟢</u>
