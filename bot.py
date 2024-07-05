@@ -6,7 +6,7 @@ from pyrogram import Client, filters, errors
 from pyrogram.enums import ParseMode
 from pyrogram.raw import functions, types
 
-bot_token = "6160100728:AAF5hEci37tGUxkrQ7FidutIN8-27gfFAeU"
+bot_token = "6525184503:AAFbQWYHZDbKDQ9uquq9I6z47HrDH9vauuM"
 sudo = 1502490631
 login_temp_list = {}
 
@@ -37,7 +37,7 @@ bot = Client(
 @bot.on_message(filters.command(["start"]) & filters.user(sudo))
 async def start(client, message):
     await bot.send_message(message.from_user.id,'''<b>Welcome to MurDer Army </b>
-<code>Army ~ Alireza</code>
+<b>Atakeri</b>
 
 <u>🟢 راهنمای افزودن اکانت به ربات 🟢</u>
 
