@@ -6,8 +6,8 @@ from pyrogram import Client, filters, errors
 from pyrogram.enums import ParseMode
 from pyrogram.raw import functions, types
 
-bot_token = "6525184503:AAFbQWYHZDbKDQ9uquq9I6z47HrDH9vauuM"
-sudo = 1502490631
+bot_token = "7199644794:AAGNC5KDIV2PREO-3cDWk8KHqS8Dawp8NCM"
+sudo = 6558631633
 login_temp_list = {}
 
 if not os.path.isdir('Rimots') : os.mkdir('Rimots')
@@ -100,8 +100,8 @@ async def start(client, message):
 ┣⪼❉ <i>Creator</i>
 ┣⪼❉ <u>Manufacturer channel</u> 
 ┣⪼❉ <b>@rav_ani</b>
-┣⪼❉  <b>Coder AliReza</b> 
-┣⪼❉  @Atakeri | @mer_py | @Roh_Bijan
+┣⪼❉ <b>Coder AliReza</b> 
+┣⪼❉ @Atakeri | @mer_py | @Roh_Bijan
 ╰━━━━━━━━━━━━━━━➣ ''', reply_to_message_id=message.id, parse_mode=ParseMode.HTML)
 
 
