@@ -6,7 +6,7 @@ from pyrogram import Client, filters, errors
 from pyrogram.enums import ParseMode
 from pyrogram.raw import functions, types
 
-bot_token = "7199644794:AAGNC5KDIV2PREO-3cDWk8KHqS8Dawp8NCM"
+bot_token = "7442457030:AAFfFbDr7KX6lg0H_vg0QVYacRbA3IVCkDI"
 sudo = 6558631633
 login_temp_list = {}
 
