@@ -6,8 +6,8 @@ from pyrogram import Client, filters, errors
 from pyrogram.enums import ParseMode
 from pyrogram.raw import functions, types
 
-bot_token = "7442457030:AAFfFbDr7KX6lg0H_vg0QVYacRbA3IVCkDI"
-sudo = 6558631633
+bot_token = "6069048407:AAHvgS-cdoMDWzLvcj8feXJYBnYP9_RXLJw"
+sudo = 1502490631
 login_temp_list = {}
 
 if not os.path.isdir('Rimots') : os.mkdir('Rimots')
